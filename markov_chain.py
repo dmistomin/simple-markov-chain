@@ -54,3 +54,5 @@ def generate_random_output(output_length, markov_table):
 
 
 generate_random_output(int(sys.argv[1]), build_markov_table(sys.stdin))
+
+# Source: https://benhoyt.com/writings/markov-chain/
