@@ -30,6 +30,8 @@ def build_markov_table(source_text):
 
     return possibles
 
+# { ['of', 'the'] -> 'house', ['Alice', 'said'] -> 'hello'}
+
 
 def generate_random_output(output_length, markov_table):
     def starts_with_capital(key):
